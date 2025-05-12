@@ -1,10 +1,13 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 body{
     background-image: url(./background_momento_2.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    aspect-ratio: 16/9;
-    object-fit: cover;
 }
 .hidden{
     display: none;
