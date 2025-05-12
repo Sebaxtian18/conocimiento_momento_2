@@ -1,0 +1,14 @@
+.home_contenido{
+    width: 80%;
+    height: 100%;
+    margin-left: 1rem;
+    border-radius: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home_contenido p{
+    font-size: 3rem;
+    letter-spacing: 0.08rem;
+    color: #fff;
+}

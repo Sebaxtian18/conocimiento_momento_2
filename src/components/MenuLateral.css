@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.menu_lateral{
+    width: 20%;
+    height: 100%;
+    background-color: #ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 0.8rem;
+    box-shadow: 0.1rem 0.1rem 0.3rem black;
+}
+
+.menu_lateral h1{
+    font-size: 2.5rem;
+    letter-spacing: 0.2rem;
+    border-bottom: black 0.8rem solid;
+}
+
+.menu_lateral button{
+    width: 12rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: #6b94d1;
+    font-size: 1rem;
+    box-shadow: 0.1rem 0.1rem 0.3rem black;
+    letter-spacing: 0.08rem;
+}
