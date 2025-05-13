@@ -1,8 +1,13 @@
 import "./Login.css"
 import logo from "../assets/logo.svg";
-import { Link} from "react-router-dom";
+import { Link, useNavigate} from "react-router-dom";
 
 function Registro() {
+    const navigate = useNavigate();
+    
+    const ingresar = ()=>{
+        navigate("/login")
+    }
     return(
         <section className="login">
             <form className="registro_form">
@@ -14,7 +19,7 @@ function Registro() {
                     <input type="text" placeholder="Contraseña" />
                     <input type="text" placeholder="Nombre"/>
                     <input type="text" placeholder="Correo"/>
-                    <button type="button">Registrarse</button>
+                    <button type="button" onClick={ingresar}>Registrarse</button>
                     <Link to="/login"><p>¿Ya tienes cuenta?</p></Link>
                 </div>
             </form>

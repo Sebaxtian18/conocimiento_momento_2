@@ -9,6 +9,9 @@ body{
     background-position: center center;
     background-size: cover;
 }
+button{
+    cursor: pointer;
+}
 .hidden{
     display: none;
 }

@@ -1,5 +1,4 @@
 import "../../public/Styles.css"
-import Contenido from "../components/Contenido";
 import MenuLateral from "../components/MenuLateral";
 import "./Home.css"
 
@@ -7,7 +6,9 @@ function Home() {
     return(
         <section className="home">
             <MenuLateral />
-            <Contenido />
+            <div className="home_contenido">
+                <p><em><u>Home</u></em></p>
+            </div>
         </section>
     )
 }

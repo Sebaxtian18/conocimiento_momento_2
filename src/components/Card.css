@@ -1,0 +1,34 @@
+.card_servicios{
+    width: 20rem;
+    height: 20rem;
+    background-color: aliceblue;
+    border-radius: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #ddd;
+}
+
+.img_card{
+    width: 100%;
+    height: 70%;
+}
+
+.img_card img{
+    width: 100%;
+    height: 100%;
+}
+
+.contenido_card{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido_card p{
+    font-size: 1.5rem;
+    letter-spacing: 0.08rem;
+}
